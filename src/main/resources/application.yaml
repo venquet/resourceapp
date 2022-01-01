@@ -1,0 +1,15 @@
+server:
+    port: 8182
+
+spring:
+    application:
+        name: resource-service
+
+eureka:
+    client:
+        registerWithEureka: true
+        fetchRegistry: true
+        serviceUrl: 
+            defaultZone: http://172.20.10.7:8761/eureka
+        instance:
+            hostname: localhost
